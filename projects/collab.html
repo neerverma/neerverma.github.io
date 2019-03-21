@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Collab</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <!--Google icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500,700" rel="stylesheet">
+    <link rel='shortcut icon' href='../assets/favicon.ico' type='image/x-icon' />
+    <link rel="stylesheet" href="../css/mystyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <nav class="nav-down">
+        <a href="../index.html" class="logo">
+            <h2>nv.</h2>
+        </a>
+        <ul>
+            <li><a class='menu' href="../index.html">portfolio</a></li>
+            <li><a class='menu' href="../index.html">contact </a></li>
+            <li><a class='menu' href="../file/Resume.pdf">resume</a></li>
+            <!--             Todo Links for nav
+ -->
+        </ul>
+    </nav>
+    <div class="space30px"></div>
+    <div class="space30px"></div>
+    <div class="space30px"></div>
+    <div class="hero">
+        <div class="description">
+            <h1>Nubitalk </h1>
+            <h2>MHCI Capstone Project</h2>
+        </div>
+        <div class="hero-image">
+            <img class="hero-image-full" src="../assets/collab/busgang.jpg" alt="Iterative Design Process">
+        </div>
+    </div>
+    <section class="content">
+        <div class="columns">
+            <main class="main">
+                <h4>Overview</h4>
+                <p>The Carnegie Mellon University Master of Human-Computer Interaction (MHCI) Capstone Project is an 8-month research, design, prototyping, and evaluation client project required for the CMU MHCI degree. The project spans two semesters where in the first semester the focus is on user research and synthesis, while the second semester is dedicated to ideation and prototyping. For my project, I worked with a client called Collab based in Lisbon, Portugal. </p>
+            </main>
+            <aside class="sidebar-first">
+                <h4>Team & Duration</h4>
+                <p>RJ Villaflor, Carolina Gouveia, Yunting Liu | 8 Months </p>
+                <h4>Role</h4>
+                <p>User Researcher & UX Designer </p>
+            </aside>
+            <aside class="sidebar-second">
+                <h4>Tools</h4>
+                <p>Sketch, Framer, Premier, React</p>
+                <h4>Methods</h4>
+                <p>Ethnographic Interviews, competitor analysis, fly-on-the-wall observations, visioning</p>
+            </aside>
+        </div>
+    </section>
+    <div class="sidebar project-sidebar">
+        <progress class="project-sum hidden" value="0">
+        </progress>
+        <div class="project-sum hidden">
+            <div id="tags">
+            </div>
+            
+        </div>
+    </div>
+    <div id="works">
+        <div class='project project-details'>
+            <div class="space30px"></div>
+            <div class="space15px"></div>
+   
+            <h3 id='s1' class='section'>&nbsp</h3>
+            <h3 id='s2' class='section'>Client</h3>
+            <p> <a target="_blank" href="https://www.collab.com/en/">Collab</a>, a European Multimedia Contact Center Provider based out of Lisbon with clients all around the globe.</p>
+            <div class="space15px"></div>
+            <h3 id='s3' class='section'>Challange</h3>
+            <p> To redesign and improve the user experience of Collab's cloud based contact center platform <a target="_blank" href="https://www.collab.com/nubitalk/">Nubitalk</a>.</p>
+            <div class="space15px"></div>
+            <!--
+            <h3>SCOPE</h3>
+                <p><b>Time Frame: </b>10 days<br>
+                    <b>My Role: </b>UI&UX designer + front-end developer
+                </p>  
+-->
+            <!-- <div>
+                <video class="project-vid-long" autoplay loop>
+                    <source src="../assets/CrowdVerify/Old-vs-new-1.m4v" type="video/mp4" </video>
+            </div> -->
+            <h3 id='s4' class='section'>Research Approach</h3>
+            <h2>Combining multiple research techniques</h2>
+            <p>At the outset of this project, we sought to understand how contact centers worked and what role technology played in enabling an effective operation. More specifically, we wanted to know what technologies are used, what processes they support, and what needs are being met by each technology. We conducted competitive analysis to see where our client's software stands and what features competitors offers. We used user interviews, contextual inquiries, job shadowing, fly on the wall observations to aid us in understanding the context of a contact center along with the needs of the stakeholders. We also conducted a heuristics evaluation of the current state of the platform to identify opportunities areas.
+            </p>
+            <div class="project-img-div-med">
+                <img class="project-img-med" src="../assets/collab/methods.png" alt="Paper Prototype">
+            </div>
+            <p>
+            </p>
+            <div class="space15px"></div>
+            <h3 id='s5' class='section'> Research Synthesis</h3>
+            <h2>Competitive Analysis</h2>
+            <p> We looked at both the enterprise contact center system providers and cloud based contact center system providers to understand how Collab's solution measure up to the competition in terms of usability, scope and price. </p>
+            <div class="project-img-div-med">
+                <img class="project-img-med" src="../assets/collab/competitive.png" alt="Paper Prototype">
+            </div>
+            <div class="space15px"></div>
+            <h2>Stakeholder Map</h2>
+            <p> Based on our research, we identifies each stakeholder and communication between them. </p>
+            <div class="project-img-div-med">
+                <img class="project-img-med" src="../assets/collab/stakeholder.png" alt="Paper Prototype">
+            </div>
+            <div class="space15px"></div>
+            <h2>Sequence Flow Diagramming</h2>
+            <p> Once, we identified all the stakeholders, we moved on to create sequence flows for each stakeholder to understand thier workflow and identify breakdowns and opprotunity areas.</p>
+            <div class="project-img-div-med">
+                <img class="project-img-med" src="../assets/collab/sq1.jpg" alt="Paper Prototype">
+            </div>
+            <div class="project-img-div-med">
+                <img class="project-img-med" src="../assets/collab/sq2.jpg" alt="Paper Prototype">
+            </div>
+            <div class="space15px"></div>
+            <h2>Affinity Diagramming</h2>
+            <p> We created an affinity diagram from all of our notes from the interviews, job shadowing and observations, we gave us a deep understanding of the work performed by the stakeholders involved (including the key tasks, what situations trigger an action and what information was necessary at the moment). </p>
+            <div class="project-img-div-med">
+                <img class="project-img-med" src="../assets/collab/affinity.jpg" alt="Paper Prototype">
+            </div>
+            <div class="space15px"></div>
+            <h3 id='s6' class='section'>opportunities areas & Concepts</h3>
+            <h2>Concepts cannot be disclosed due to NDA, but please reach out to me @  <a id="email" href="mailto:nneeraj@andrew.cmu.edu">nneeraj@andrew.cmu.edu</a> for more details.</h2>
+            <p></p>
+
+            <div class="space15px"></div>
+            <h3 id='s7' class='section'>Iterative Prototyping and Validation</h3>
+            <p>We will be resuming the project this fall semester, where our focus will be to iteratively create prototypes and their validation with all the stakeholders. We will be delivering the final product at the end of fall Semester(early December)</p>
+            <!--
+                
+                <div class="project-img-div-med">
+                        <img class="project-img-med" src="../assets/CrowdVerify/paper-prototpye.png" alt="Paper Prototype">
+                </div>
+                <h4>Paper Prototypes</h4>
+-->
+            <!-- <h3 id='s7' class='section'>Reflection</h3>
+            <p>Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+            <div class="space15px"></div>
+            <div class="space15px"></div> -->
+            <div class="space15px"></div>
+                 <div class="space15px"></div>
+            <div class="space15px"></div>
+            <h3>other projects</h3>
+            <div class="space15px"></div>
+            <div class="space15px"></div>
+            <div class="clear-design"></div>
+            <div class=" project1">
+                <a href="historia.html">
+                    <img src="../assets/homepage/historiamock.jpg" alt="test" />
+                    <p>Historia</p>
+            </div>
+            <div class="project1">
+                <a href="quinta.html">
+                    <img src="../assets/homepage/quinta1.png" alt="test" />
+                    <p>Community Festival</p>
+            </div>
+        </div>
+        <div class="clear-design"></div>
+    </div>
+    <!--        <div id='bottom-space'></div>-->
+    <footer>
+        <hr>
+        <div class="social">
+            <a href="https://medium.com/@nverma31"><img src="../assets/medium.png" alt="Twitter"></a>
+            <a href="https://github.com/nverma31"><img src="../assets/githubq.png" alt="Facebook"></a>
+            <a href="https://www.linkedin.com/in/neeraj-verma-2753a519/"><img src="../assets/linkedin1.png" alt="Instagram"></a>
+        </div>
+        <div class="footer-left">© 2017 Neeraj Verma. Made in Lisbon.
+        </div>
+        <div class="footer-right">nv.
+        </div>
+        <footer>
+    </div>
+    <!--JS-->
+    <script src="../js/myscript.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/3.3.6/scrollreveal.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--Google Analytics-->
+</body>
+
+</html>

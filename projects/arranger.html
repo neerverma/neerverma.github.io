@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Arranger</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <!--Google icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500,700" rel="stylesheet">
+    <link rel='shortcut icon' href='../assets/favicon.ico' type='image/x-icon' />
+    <link rel="stylesheet" href="../css/mystyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <nav class="nav-down">
+        <a href="../index.html" class="logo">
+            <h2>nv.</h2>
+        </a>
+        <ul>
+            <li><a class='menu' href="../index.html">portfolio</a></li>
+            <li><a class='menu' href="../index.html">contact</a></li>
+            <li><a class='menu' href="../file/Resume.pdf">resume</a></li>
+            <!--             Todo Links for nav
+ -->
+        </ul>
+    </nav>
+    <div class="space30px"></div>
+    <div class="space30px"></div>
+    <div class="space30px"></div>
+    <div class="hero">
+        <div class="description">
+            <h1>Arranger</h1>
+            <h2>Get your ride</h2>
+        </div>
+        <div class="hero-image">
+            <img class="hero-image-full" src="../assets/arrangers/hero.png" alt="Iterative Design Process">
+        </div>
+    </div>
+    <section class="content">
+        <div class="columns">
+            <main class="main">
+                <h4>Overview</h4>
+                <p>Arranger is an App which allows tween to setup their own playdates and events by requesting parents for approval and rides.</p>
+            </main>
+            <aside class="sidebar-first">
+                <h4>Team & Duration</h4>
+                <p>Daya Lee | 3 Weeks</p>
+                <h4>Role</h4>
+                <p>Product Designer </p>
+            </aside>
+            <aside class="sidebar-second">
+                <h4>Tools</h4>
+                <p>Sketch, Framer</p>
+                <h4>Methods</h4>
+                <p>Interviews, Personas and Scenarios, System design, Wireframing, Speed Dating</p>
+            </aside>
+        </div>
+    </section>
+    <div class="sidebar project-sidebar">
+        <progress class="project-sum hidden" value="0">
+        </progress>
+        <div class="project-sum hidden">
+            <div id="tags">
+            </div>
+     
+        </div>
+    </div>
+    <div id="works">
+        <div class='project project-details'>
+            <div class="space30px"></div>
+            <div class="space15px"></div>
+      
+            <h3 id='s1' class='section'>Brief</h3>
+            <p>Tweens these days are engaged in various social and interpersonal development activities such as theatre, football, music or hanging out at cafes with friends. We were given the problem of improving communication between tweens and parents within the realm of event planning. </p>
+ 
+            <h3>Final Design Overview</h3>
+            <video width="480" autoplay loop muted>
+                <source src="../assets/arrangers/proto.mp4" type="video/mp4">
+            </video>
+            <h3 id='s2' class='section'>Ecosystem dump</h3>
+            <p>We started with ecosystem dump, and determined that the areas we most needed to focus our research on were how tweens planned small social events, how comfortable parents are with others driving their kids places (other parents, public transportation, uber), and where kids often hang out. We also decided to get an idea of how tweens in a couple of different age groups and independence levels managed their independence with their parents’ expectations.</p>
+            <div class="project-img-div-med">
+                <img class="project-img-med" src="../assets/arrangers/eco.png" alt="CrowdVerify Hero">
+            </div>
+            <div class="clear-design"></div>
+            <div class="space15px"></div>
+            <h3 id='s3' class='section'>NeedFinding</h3>
+            <h2>Conducting one on one interviews</h2>
+            <p>We interviewed 5 tweens and 6 parents, to understand how tween events are co-ordinated and what are the associated pain-points. Some parents also shared artifacts like calendar or bulletin boards that they use to co-ordinate activities of their kids.
+            </p>
+            <div class="space15px"></div>
+            <h2>Findings</h2>
+            <ul class="text-list">
+                <li>Parents usually grant permission to tween activities, but this doesn't translate to transporting them around.</li>
+                <li> They don't like it when tweens assume they are free.</li>
+                <li> Parents want tweens to be independent in making their plans.</li>
+                <li> Parents are worried about their children safety when they are out.</li>
+            </ul>
+            <div class="space15px"></div>
+            <h3 id='s4' class='section'>Personas and Storyboards</h3>
+            <!--             <h2>Learning from existing solutions</h2>
+ -->
+            <p>Building on our insights from research, we developed the two primary personas - Tween persona and Parent persona.</p>
+            <div class="project-img-div-med">
+                <img class="project-img-med" src="../assets/arrangers/persona.png" alt="CrowdVerify Hero">
+            </div>
+            <div class="space15px"></div>
+            <div class="space15px"></div>
+            <div class="space15px"></div>
+            <h2>Using Context scenarios with the Personas to come up with the interaction framework of our app </h2>
+            <div class="space15px"></div>
+            <div class="design-image">
+                <img src="../assets/arrangers/sbf2.png" alt="Screen">
+            </div>
+            <div class="design-text">
+                <h2>How might we enable tweens to be more responsible</h2>
+                <p> </p>
+            </div>
+            <div class="clear-design"></div>
+            <div class="space15px"></div>
+            <div class="space15px"></div>
+            <div class="design-text">
+                <h2>How might we enable better scheduling</h2>
+                <p></p>
+            </div>
+            <div class="design-image">
+                <img src="../assets/arrangers/sbf1.png" alt="Screen">
+            </div>
+            <div class="clear-design"></div>
+            <div class="space15px"></div>
+            <div class="space15px"></div>
+            <div class="design-image">
+                <img src="../assets/arrangers/sbf3.png" alt="Screen">
+            </div>
+            <div class="design-text">
+                <h2>How might we reduce the safety concerns of parents</h2>
+                <p></p>
+            </div>
+            <div class="clear-design"></div>
+            <br>
+            <!--
+                
+                <div class="project-img-div-med">
+                        <img class="project-img-med" src="../assets/CrowdVerify/paper-prototpye.png" alt="Paper Prototype">
+                </div>
+                <h4>Paper Prototypes</h4>
+
+-->
+            <h3 id='s5' class='section'>System Design</h3>
+            <p>We decided on a system where -</p>
+            <ul class="text-list">
+                <li>Tweens will request the parent to go to any event or ride by providing them complete information about the event.</li>
+                <li> Parents approve tweens requests.</li>
+                <li> Parents can see real time location of the tween.</li>
+            </ul>
+            <p>We decided that we will have 2 app versions, one for Parents and one for Tweens.</p>
+            <div class="space15px"></div>
+            <h3 id='s6' class='section'>Iterations</h3>
+            <h2>Starting of with basic Wireframes</h2>
+            <p>Keeping in mind the features that both parent and tween apps would have to facilitate, we quickly laid out basic wireframes to outline the navigation of the app using key path scenarios and iteratively refining them.</p>
+            <div class="project-img-div-med">
+                <img class="project-img-med" src="../assets/arrangers/wire1.png" alt="CrowdVerify Hero">
+            </div>
+            <div class="project-img-div-med">
+                <img class="project-img-med" src="../assets/arrangers/wire2.png" alt="CrowdVerify Hero">
+            </div>
+            <h2>User Testing with Medium fidelity Wireframes</h2>
+            <p>The screens were quickly mocked up in Sketch for peer feedback to get insights on whether the screens were able to acheive the goals of the system.</p>
+            <div class="project-img-div-long">
+                <img class="project-img-long" src="../assets/arrangers/wireframes.png" alt="Iterative Design Process">
+            </div>
+            <div class="space15px"></div>
+            <h3 id='s7' class='section'>Design Decisions</h3>
+            <div class="space15px"></div>
+            <div class="design-image">
+                <img src="../assets/arrangers/chatbot.png" alt="Screen">
+            </div>
+            <div class="design-text">
+                <h2>Replacing request form to a conversational UI</h2>
+                <p>Based on the feedback during critique and user testing sessions that a filling a request form will be really tedious, we decided to move away from a request form to a conversational UI for requesting parents. </p>
+            </div>
+            <div class="clear-design"></div>
+            <div class="space15px"></div>
+            <div class="space15px"></div>
+            <div class="design-text">
+                <h2>Allowing tweens to text their friends from within the application </h2>
+                <p>Another thing that came up was the need for the scenario when parents approve you to go the event, but couldn't give you a ride. We decided that the app would allow them to reach out to their friends, who in turn could use the app to request a ride from their parents.</p>
+            </div>
+            <div class="design-image">
+                <img src="../assets/arrangers/mail.png" alt="Screen">
+            </div>
+            <div class="clear-design"></div>
+            <div class="space15px"></div>
+            <br>
+            <div class="space15px"></div>
+            <h3 id='s8' class='section'>Screens and UI Flow</h3>
+            <div class="project-img-div-long">
+                <img class="project-img-long" src="../assets/arrangers/uiflow.png" alt="Iterative Design Process">
+            </div>
+            <div class="space15px"></div>
+            <h3>REFLECTIONS</h3>
+            <p>Because of the time constraint, we were able to do limited research but even that helped us to uncover user needs and set goals for our product. Also, I realise the benefits of using a design system, as we followed ios human interface guidelines, while designing the screens and it helped us in acheiving goals for product by focusing on content and clarity. Lastly, the critique sessions during class helped us in making design decisions during various stages of the design process.</p>
+            <div class="space15px"></div>
+            <div class="space15px"></div>
+            <div class="space15px"></div>
+            <h3>other projects</h3>
+            <div class="space15px"></div>
+            <div class="space15px"></div>
+            <div class="clear-design"></div>
+            <div class=" project1">
+                <a href="historia.html">
+                    <img src="../assets/homepage/historiamock.jpg" alt="test" />
+                    <p>Historia</p>
+            </div>
+            <div class="project1">
+                <a href="quinta.html">
+                    <img src="../assets/homepage/quinta1.png" alt="test" />
+                    <p>Community Festival</p>
+            </div>
+        </div>
+        <div class="clear-design"></div>
+    </div>
+    <!--        <div id='bottom-space'></div>-->
+    <footer>
+        <hr>
+        <div class="social">
+            <a href="https://medium.com/@nverma31"><img src="../assets/medium.png" alt="Twitter"></a>
+            <a href="https://github.com/nverma31"><img src="../assets/githubq.png" alt="Facebook"></a>
+            <a href="https://www.linkedin.com/in/neeraj-verma-2753a519/"><img src="../assets/linkedin1.png" alt="Instagram"></a>
+        </div>
+        <div class="footer-left">© 2017 Neeraj Verma. Made in Lisbon.
+        </div>
+        <div class="footer-right">nv.
+        </div>
+        <footer>
+            </div>
+            <!--JS-->
+            <script src="../js/myscript.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/3.3.6/scrollreveal.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <!--Google Analytics-->
+</body>
+
+</html>

@@ -1,0 +1,267 @@
+
+
+/*===================================================================================*/
+/*	CUSTOM CSS STYLES
+/*===================================================================================*/
+
+/* Insert your own styles in here! */
+
+
+#myName{
+	font-family: 'Raleway', sans-serif;
+	line-height: 120%;
+	font-weight: 400;
+	color: #4A4A4A;
+}
+
+.coolText{
+	
+	font-family: 'Cormorant Garamond', serif;
+	line-height: 120%;
+	font-weight: 600;
+	font-style: italic;
+	color: #2B2B2B;
+	/*text-align: right;*/
+}
+
+.initialDescrip{
+	font-size: 13px;
+	line-height: 180%;
+	padding-top: 0px;
+}
+
+.smallText{
+	font-family: 'Raleway', sans-serif;
+	/*line-height: 110%;*/
+	font-weight: 400;
+	font-style: initial;
+	color: #4A4A4A;
+}
+
+#resumelink a{
+	border-bottom-color: white;
+}
+
+#resumelink a:hover, a:focus{
+	border-bottom-color: transparent;
+}
+
+#articlelink a{
+	border-bottom-color: transparent;
+}
+
+#articlelink a:hover, a:focus{
+	border-bottom-color: transparent;
+}
+
+#myWrapper{
+	background-image: url('../images/image2.jpg');
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	background-position: center;
+	background-repeat: no-repeat;
+	/*min-height: 640px;*/
+	/*width: 100vw;*/
+	height: 95vh;
+}
+
+@media(max-width: 767px){
+	.coolText{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 36px;
+	line-height: 100%;
+	font-weight: 500;
+	font-style: italic;
+	color: #2B2B2B;
+	/*margin-right: 20px;*/
+}
+	.smallText{
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	line-height: 140%;
+	font-weight: 400;
+	font-style: initial;
+	color: #4A4A4A;
+	/*margin-right: 20px;*/
+	padding-top: 10px; 
+}
+.initialDescrip{
+	font-size: 13px;
+	line-height: 150%;
+	padding-top: 0px;
+}
+#myDescrip{
+	padding-top: 80px;
+}
+#myWrapper{
+	background-image: url('../images/image3.jpg');
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	background-position: center;
+	background-repeat: no-repeat;
+	/*min-height: 640px;*/
+	/*width: 100vw;*/
+	height: 90vh;
+}
+#mydata{
+	padding-top: 40px;
+}
+#currPlay{
+	padding-top: 40px;
+}
+
+
+}
+
+
+
+@media(max-width: 480px){
+	.coolText{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 36px;
+	line-height: 100%;
+	font-weight: 500;
+	font-style: italic;
+	color: #2B2B2B;
+	/*margin-right: 20px;*/
+}
+	.smallText{
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	line-height: 140%;
+	font-weight: 400;
+	font-style: initial;
+	color: #4A4A4A;
+	/*margin-right: 20px;*/
+	padding-top: 10px; 
+}
+.initialDescrip{
+	font-size: 13px;
+	line-height: 150%;
+	padding-top: 0px;
+}
+#myDescrip{
+	padding-top: 80px;
+}
+#myWrapper{
+	background-image: url('../images/image3.jpg');
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	background-position: center;
+	background-repeat: no-repeat;
+	/*min-height: 640px;*/
+	/*width: 100vw;*/
+	height: 90vh;
+}
+#mydata{
+	padding-top: 40px;
+}
+#currPlay{
+	padding-top: 90px;
+}
+
+
+}
+
+
+
+
+
+.projectTitle{	
+	font-family: 'Raleway', sans-serif;
+	line-height: 120%;
+	font-size: 34px;
+	font-weight: 300;
+	letter-spacing: 3px;
+	/*font-style: italic;*/
+}
+
+.projectHeading{	
+	font-family: 'Raleway', sans-serif;
+	line-height: 120%;
+	font-size: 19px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	/*font-style: italic;*/
+}
+
+.projectDescrip{	
+	font-family: 'Crimson Text', serif;
+	line-height: 150%;
+	font-size: 18px;
+	font-weight: 300;
+	/*text-align: left;*/
+	/*font-style: italic;*/
+}
+
+.conceptsInfo{
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	line-height: 170%;
+	font-weight: 400;
+	color: #4A4A4A;
+
+}
+
+.conceptsDescrip{
+	font-family: 'Crimson Text', serif;
+	line-height: 150%;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.conceptsTitle{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	line-height: 150%;
+}
+
+
+
+
+
+
+.imageCaption{	
+	font-family: 'Crimson Text', serif;
+	line-height: 150%;
+	font-size: 18px;
+	text-align: left;
+	font-weight: 300;
+	/*font-style: italic;*/
+	padding-top: 10px;
+}
+
+.lineAfterTitle{
+	width: 200px;
+
+}
+
+.projectIndicator-prev{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #2b2b2b;
+	letter-spacing: 1px;
+}
+
+.projectIndicator-next{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #2b2b2b;
+	letter-spacing: 1px;
+}
+
+.projectIndicator-next-spark{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #2b2b2b;
+	letter-spacing: 1px;
+}
+
+
+
+
+
+
