@@ -854,14 +854,9 @@ progress::-moz-progress-bar {
     } */
     
     h2 {
-        font-size: 25px;
-        letter-spacing: .7px;
-        line-height: 1.4;
-        max-width: 90%;
-        color: #3e3c3c;
-        font-weight: 500;
-        font-size: 2rem;
-        margin-bottom: 25px;
+    
+        color: #000;
+        font-size: 3.4rem;
         font-family: anderson_light;
     }
     
@@ -871,9 +866,9 @@ progress::-moz-progress-bar {
     
     p,
     li {
-        font-size: 15px;
-        line-height: 1.6;
-        letter-spacing: .83px;
+        font-size:2rem;
+        list-style-type: decimal;
+      
     }
     
     #works p {
@@ -1264,7 +1259,7 @@ li {
     z-index: 2;
 }
 li {
-    margin-bottom: 10px;
+    margin-bottom: 2rem;
 }
 ul {
     list-style-type: circle;
@@ -1279,8 +1274,8 @@ li b {
 }
 p a {
     color: #484848;
-    font-weight: 400;
-    font-size: 1.4rem;
+    font-family: anderson_ultrabold;
+    font-size: 1.5rem;
     /*    border-bottom: 1px #bdbdbd dashed;
 */
 }
@@ -1361,7 +1356,7 @@ ul {
     list-style-type: circle;
 }
 .text-list  li{
-    font-family: anderson_ultrabold;
+    font-family: anderson;
 }
 .material-icons {
     /*google icons*/
