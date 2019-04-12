@@ -19,6 +19,11 @@
     src: url('../fonts/AndersonGrotesk.otf');
 }
 
+@font-face {
+    font-family: 'anderson_black';
+    src: url('../fonts/AndersonGrotesk-Black.otf');
+}
+
 
 *,
 *::after,
@@ -49,21 +54,30 @@ nav li,
 }
 
 header {
-    height: 100%;
 }
 
 .wrapper {
-    margin-top: 10%;
-    margin-left: 10%;
+    margin-top: 20%;
     width: 80%;
-}
+    margin-bottom: 10%;
 
-.intro {
-    clear: both;
-    width: 90%;
-    float: left;
-    height: 100%;
 }
+.wrapper p{
+    font-family: 'anderson_ultrabold';
+    color: #000;
+    font-size: 4rem;
+    width: 70%;
+
+
+}
+.wrapper a {
+
+font-size: 4rem;
+
+    text-decoration: none;
+  }
+
+
 
 p {
     font-family: 'anderson';
@@ -121,8 +135,9 @@ nav li a {
 
 .thumbnails {
     clear: both;
-    width: 95%;
-    margin: 3em auto;
+    margin-left: 5%;
+    margin-right: 5%;
+
 }
 
 .project1 {
@@ -228,13 +243,15 @@ nav li a {
     margin: 15px;
     font-family: anderson_ultrabold;
     font-size: 2rem;
+    color: #000;
+
 }
 
 .skill p {
     text-align: center;
     margin: 15px;
     font-family: anderson_light;
-    color: #9ea0a6;
+    color: #000;
     font-size: 2rem;
 }
 
@@ -471,7 +488,7 @@ progress::-moz-progress-bar {
     
     .wrapper {
         padding-top: 5%;
-        margin-left: 10%;
+        margin-left: 5%;
         width: 80%;
         height: 100%;
     }
@@ -829,8 +846,8 @@ progress::-moz-progress-bar {
     }
     
     nav .logo {
-        margin-top: 20px;
-        margin-left: 84px;
+        margin-top: 2%;
+        margin-left: 5%;
     }
     
     #intro-content {
@@ -989,8 +1006,8 @@ progress::-moz-progress-bar {
     }
     
     nav .logo {
-        margin-left: 8%;
-        margin-top: 23px;
+        margin-left: 5%;
+        margin-top: 2%;
     }
     
     .sidebar {
@@ -1277,7 +1294,7 @@ li b {
     color: #303030;
 }
 p a {
-    color: #484848;
+    color: #000;
     font-family: anderson_ultrabold;
     font-size: 1.5rem;
     /*    border-bottom: 1px #bdbdbd dashed;
@@ -1394,20 +1411,38 @@ ul {
 .contact {
     padding-top: 5%;
     font-size: 2rem;
+    padding-bottom: 3%;
+
 }
 .contact a {
     text-decoration: none;
-    color: #484848;
+    color: #000;
     font-family: anderson_light;
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 .contact #email {
     font-family: anderson_ultrabold;
+
+}
+.connect-text  {
+    font-family: anderson_ultrabold;
+    padding-bottom: 4%;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: #000;
+
+
+
+
 }
 footer {
-    margin-left: 5%;
-    margin-right: 10%;
-    margin-bottom: 20px;
+    padding-left: 5%;
+    
+    padding-right: 10%;
+    padding-bottom: 5%;
+    background-color: #FAFAFA;
+    color: #000;
+
 }
 
 /*hr {
@@ -1415,6 +1450,8 @@ footer {
 }*/
 .social {
     float: left;
+    background-color: #FAFAFA;
+
 }
 .social img {
     height: 20px;
@@ -1427,15 +1464,19 @@ footer {
     font-size: 1.4rem;
     box-sizing: border-box;
     padding-left: 25px;
-    padding-bottom: 5%;
+    background-color: #FAFAFA;
+    font-family: anderson;
+
+
 }
 .footer-right {
     float: right;
-    font-size: 1.5rem;
+    font-size: 2rem;
     box-sizing: border-box;
     font-family: anderson_ultrabold;
     padding-left: 25px;
-    padding-bottom: 5%;
+    background-color: #FAFAFA;
+
 }
 hr {
     border-top: 1px solid #DADADA;
@@ -1555,7 +1596,6 @@ hr {
     font-size: 2.9rem;
 }
 #here-projects h1 {
-    font-family: anderson_light;
     text-align: center;
 }
 .project1-clear {
@@ -1563,18 +1603,21 @@ clear: both;
 }
 .explorations h1 {
     clear: both;
-    font-family: anderson_light;
+    font-family: 'anderson_ultrabold';
+    text-transform: uppercase;
+    font-size: 1.8rem;
     float: left;
     text-align: left;
-    margin-left: 3%;
+    margin-left: 6%;
     margin-top: 0;
     display: block;
+    color: #000;
 }
 .horizontal hr {
-    margin-left: 3%;
-    width: 3%;
+    margin-left: 5.9%;
+    width: 1.5%;
     float: left;
-    border-top: 1px solid #484848;
+    border-top: 0.4rem solid #000;
 }
 .hero {
         position: relative;
@@ -1609,6 +1652,14 @@ clear: both;
         position: relative;
         /*        z-index: 5;
 */
+    }
+
+    .play-description {
+        padding: 0;
+        margin: 0;
+        font-size: 4rem !important;
+        font-family: anderson_light;
+        color: #212121;
     }
 
 
