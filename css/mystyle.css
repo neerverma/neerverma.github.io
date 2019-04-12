@@ -505,7 +505,7 @@ progress::-moz-progress-bar {
         width: 30%;
         display: inline-block;
         padding-left: 7%;
-        top: 37%;
+        top: 30%;
         /*padding-left: 84px;
         padding-right: 50px;*/
     }
@@ -606,6 +606,13 @@ progress::-moz-progress-bar {
         padding-bottom: 6%
     }
     .sec9 {
+        background: #fff;
+        padding-left: 35%;
+        padding-right: 10%;
+        padding-top: 6%;
+        padding-bottom: 6%
+    }
+    .sec10 {
         background: #fff;
         padding-left: 35%;
         padding-right: 10%;
@@ -1409,7 +1416,6 @@ ul {
     padding-bottom: 10%;
 }
 .contact {
-    padding-top: 5%;
     font-size: 2rem;
     padding-bottom: 3%;
 
@@ -1437,9 +1443,19 @@ ul {
 }
 footer {
     padding-left: 5%;
-    
+    padding-top: 5%;
+
     padding-right: 10%;
-    padding-bottom: 5%;
+    background-color: #FAFAFA;
+    color: #000;
+
+}
+
+.footer-homepage {
+    padding-left: 5%;
+    padding-top: 5%;
+
+    padding-right: 10%;
     background-color: #FAFAFA;
     color: #000;
 
