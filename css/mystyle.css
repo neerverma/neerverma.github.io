@@ -741,7 +741,7 @@ progress::-moz-progress-bar {
     }
     
     .project-img-med {
-        width: 626px;
+        width: 100%;
     }
     
     .project-img-long {
@@ -831,13 +831,13 @@ progress::-moz-progress-bar {
     
     .project-img-long {
         width: 100%;
-        margin-left: 5%;
+        margin-left: 25%;
         padding-left: 100px;
         padding-right: 4%;
     }
     
     .project-img-med {
-        width: 626px;
+        width: 100%;
     }
     
     .project-vid-long {
@@ -1147,7 +1147,7 @@ progress::-moz-progress-bar {
     
     .project-img-long {
         width: 100%;
-        margin-left: 5%;
+        margin-left: 25%;
         padding-right: 4%;
     }
     
@@ -1294,7 +1294,7 @@ h3.project-number {
 p,
 li {
     font-weight: 400;
-    color: #454545;
+    color: #000;
     z-index: 2;
 }
 li {
@@ -1517,7 +1517,6 @@ hr {
 }
 .project-img-div-med {
     width: 100%;
-    margin: 40px 0px 10px 0px;
     z-index: 5;
     background-color: #fff;
 }
@@ -1602,9 +1601,7 @@ hr {
     left: 0;
     width: 100%;
     height: 100%;
-    margin-left: 6%;
-    padding: 5%;
-    padding-top: 2%;
+    padding-top: 3%;
 }
 .project-img-div-long p {
     padding-left: 10%;
