@@ -179,9 +179,9 @@ var shortintro = {
 
 }
 var headintro = {
-    duration: 2000,
+    duration: 3000,
     useDelay: 'always',
-    delay: 500,
+    delay: 1000,
 
     origin: 'top',
     distance: '3rem',
@@ -189,7 +189,7 @@ var headintro = {
     scale: 0,
     opacity: 0,
     reset: true,
-    rotate: { x: 10, y: 0, z: 0 },
+    rotate: { x: 20, y: 0, z: 0 },
 
 }
 var images = {
@@ -202,7 +202,16 @@ distance: '100px',
 }
 
 var para = {
-    duration: 1000,
+    duration: 2000,
+    delay: 200,
+
+    origin: 'left',
+    scale: 0,
+    opacity: 0
+}
+
+var paraheader = {
+    duration: 2000,
 
     origin: 'left',
     scale: 0,
@@ -242,7 +251,7 @@ $(document).ready(function() {
     // });
 
     sr.reveal('.intro p', shortintro);
-    sr.reveal('#hh', headintro);
+    sr.reveal('.wrapper', para);
 
     // sr.reveal('.thumbnail ', images);
 
